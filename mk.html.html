@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>article</title>
+</head>
+<style>
+    body{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    header {
+        background-color: hotpink;
+        color: white;
+        text-align: center;
+        padding: 20px;
+    }
+    nav{
+        background-color:rgb(240, 94, 167);
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+        padding: 10px;
+    }
+    footer{
+        background-color: hotpink;
+        color: white;
+        text-align: center;
+        padding: 15px;;
+        margin:top20px;
+    }
+    section{
+        display:flex;
+        justify-content: center;
+        padding: 20px;
+    }
+    article{
+        background-color:white;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.2);
+        width: 400px;
+        margin: 15px;
+        padding: 15px;
+    }
+    article img{
+        width:100%;
+        border-radius: 10px;
+    }
+    .media{
+        text-align: center;
+        margin: 30px;
+    }
+    video,audio{
+        width: 70%;
+        margin-top: 10px;
+        border-radius: 10px;
+    }
+    progress{
+        width:70%;
+        height: 20px;
+        accent-color: hotpink;
+    }
+</style>
+<body>
+    <header>
+        <h1>Beauty of love</h1>
+        <p>The movies which desribes Beauty of love</p>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Articles</a>
+        <a href="#">Reviews</a>
+        <a href="#">About us</a>
+        <a href="#">contact</a>
+    </nav>
+    <section>
+        <article>
+            <img src="https://wallpapercave.com/wp/wp11483999.jpg">
+            <figcaption>Sita Raman </figcaption>
+            <h2>Sita ramam</h2>
+            <p>
+                Upon returning to Pakistan, Afreen sets off to fulfil her grandfather's wish of delivering a letter from Ram to Sita. Along the way, she finds Ram and learns about their love story.
+            </p>
+            <a href="#">Read more</a>
+        </article>
+        <article>
+            <img src="https://wallpapercave.com/uwp/uwp4635796.jpeg" alt="mk">
+            <figcaption>Titanic</figcaption>
+            <h2>Titanic</h2>
+            <p>Rose, who is being forced to marry a wealthy man, falls in love with Jack, a talented artist, aboard the unsinkable Titanic. Unfortunately, the ship hits an iceberg, endangering their lives</p>
+            <a href="#">Read more</a>
+        </article>
+    </section>
+    <div class="media">
+        <h2>Movie trailer</h2>
+        <video controls>
+            <source src="#"type="video/mp4">
+        </video>
+        <progress value="60"max="100">60%</progress>
+        <h2>Music</h2>
+        <audio controls>
+            <source src="C:\Users\Hicet\Downloads\Kurumugil-MassTamilan.dev.mp3"type="audio/mpeg">
+        </audio>
+        <progress value="60"max="100">60%</progress>
+    </div>
+    <footer>
+        <p>Thank you for visiting</p><br>
+        <p>
+            Follow us on 
+            <a href="#"style="color:white;">Instagram</a>|
+            <a href="#"style="color:white;">Youtube</a>|
+            <a href="#"style="color:white;">Twitter</a>
+        </p>
+    </footer>
+</body>
+</html>
